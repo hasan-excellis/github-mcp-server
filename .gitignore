@@ -1,1 +1,6 @@
+temp_auto_push.bat
 .idea
+.gitignore
+branch_structure.json
+config.bat
+node_modules
