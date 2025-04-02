@@ -1,2 +1,5 @@
 .idea
+temp_auto_push.bat
 cmd/github-mcp-server/github-mcp-server
+.gitignore
+branch_structure.json
