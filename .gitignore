@@ -1,4 +1,7 @@
 .idea
 cmd/github-mcp-server/github-mcp-server
+temp_auto_push.bat
 # Added by goreleaser init:
 dist/
+.gitignore
+branch_structure.json
