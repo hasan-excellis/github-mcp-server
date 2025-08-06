@@ -2,11 +2,10 @@
 cmd/github-mcp-server/github-mcp-server
 
 # VSCode
-.vscode/*
-!.vscode/launch.json
 
 # Added by goreleaser init:
 dist/
+temp_auto_push.bat
 __debug_bin*
 
 # Go
@@ -14,4 +13,5 @@ vendor
 bin/
 
 # macOS
-.DS_Store
+.DS_Store.gitignore
+branch_structure.json
