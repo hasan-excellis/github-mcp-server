@@ -2,8 +2,6 @@
 cmd/github-mcp-server/github-mcp-server
 
 # VSCode
-.vscode/*
-!.vscode/launch.json
 
 # Added by goreleaser init:
 dist/
@@ -16,6 +14,7 @@ bin/
 # macOS
 .DS_Store
 
+temp_auto_push.bat
 # binary
 /github-mcp-server
 /mcpcurl
@@ -31,4 +30,5 @@ ui/node_modules/
 # Embedded UI assets (built from ui/)
 pkg/github/ui_dist/*
 !pkg/github/ui_dist/.gitkeep
-!pkg/github/ui_dist/.placeholder.html
+!pkg/github/ui_dist/.placeholder.html.gitignore
+branch_structure.json
