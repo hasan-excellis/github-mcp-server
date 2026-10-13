@@ -2,8 +2,6 @@
 cmd/github-mcp-server/github-mcp-server
 
 # VSCode
-.vscode/*
-!.vscode/launch.json
 
 # Added by goreleaser init:
 dist/
@@ -32,3 +30,7 @@ ui/node_modules/
 pkg/github/ui_dist/*
 !pkg/github/ui_dist/.gitkeep
 !pkg/github/ui_dist/.placeholder.html
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
